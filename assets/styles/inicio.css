@@ -1,0 +1,53 @@
+#inicio{
+    width: 100%;
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.inicioApresentacao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 150px;
+    gap: 50px; /* Uma propriedade que cria um espaçamento entre os filhos, quando se usa flexbox. */
+}
+
+.inicioApresentacao span{
+    font-size: var(--fonteParagrafo);
+}
+
+.inicioApresentacao span b{
+    color: var(--roxoClaro);
+}
+
+.inicioApresentacao h1{
+    font-size: var(--fonteTitulo);
+}
+
+.inicioApresentacao h1 b{
+    color: var(--roxoClaro);
+    border: 1px solid var(--corBranco);
+    border-radius: 56% 44% 63% 37% / 47% 39% 61% 53%;
+    padding: 0px 20px;
+}
+
+.inicioApresentacao p{
+    font-size: var(--fonteDetalhe);
+}
+
+.inicioSobre h2{
+    font-size: var(--fonteTitulo);
+}
+
+.inicioSobre h3{
+    font-size: var(--fonteParagrafo);
+    font-weight: 100; /* O valor de 100 é o mesmo valor que o Lighter. */
+    margin-bottom: 50px;
+}
+
+.inicioSobre p{
+    font-size: var(--fonteParagrafo);
+    width: 75%;
+}

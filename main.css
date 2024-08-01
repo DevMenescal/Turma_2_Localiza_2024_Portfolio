@@ -1,0 +1,9 @@
+@import url(./assets/styles/global.css); /* Carrega o Global.css*/
+@import url(./assets/styles/navegacao.css); /* Carrega o Navegacao.css*/
+@import url(./assets/styles/inicio.css);
+@import url(./assets/styles/experiencia.css);
+@import url(./assets/styles/habilidades.css);
+@import url(./assets/styles/projetos.css);
+@import url(./assets/styles/contato.css);
+@import url(./assets/styles/rodape.css);
+

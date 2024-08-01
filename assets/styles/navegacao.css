@@ -1,0 +1,21 @@
+#navegacao{
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxoEscuro);
+    color: var(--corBranco);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navegacao ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navegacao a{
+    color: var(--corBranco);
+    font-size: var(--fonteParagrafo);
+    margin-right: 30px;
+}

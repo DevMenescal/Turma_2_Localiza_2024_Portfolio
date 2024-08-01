@@ -1,0 +1,28 @@
+/* Reset Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Declaração de Padding em Todas as Secções */
+section, footer{
+    padding: 0px 15%;
+}
+
+:root{
+    /* Declaração das Variáveis de Tamanho de Fonte */
+    --fonteTitulo: 50px;
+    --fonteSubtitulo: 35px;
+    --fonteParagrafo: 20px;
+    --fonteDetalhes: 14px;
+
+    /* Declaração de Variáveis de Cores */
+    --corFundo: #11071F;
+    --corBranco: #FFFFFF;
+    --roxoClaro: #693b93;
+    --roxoMedio: #261250;
+    --roxoEscuro: #1A082E;
+}
