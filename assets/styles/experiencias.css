@@ -1,0 +1,31 @@
+#experiencias{
+    background-color: var(--corFundo);
+    padding-bottom: 150px;
+    color: var(--corBranco);
+}
+
+#experiencias h1{
+    font-size: var(--fonteTitulo);
+    margin-bottom: 50px;
+}
+
+.experienciasContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.experienciasContainer > div{
+    width: 45%;
+    height: 200px;
+    background-color: var(--roxoMedio);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border-top: 5px solid var(--roxoClaro);
+    border-radius: 30px;
+    background: linear-gradient(130deg, var(--roxoEscuro) 0%, var(--roxoMedio) 50%, var(--roxoClaro) 100%);
+}
