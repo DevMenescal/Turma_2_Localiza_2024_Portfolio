@@ -29,3 +29,18 @@
     border-radius: 30px;
     background: linear-gradient(130deg, var(--roxoEscuro) 0%, var(--roxoMedio) 50%, var(--roxoClaro) 100%);
 }
+
+.experienciasContainer > div h2{ /* Selecionando o filha da div para qualquer h2 contigo nela.*/ 
+    font-size: var(--fonteSubtitulo); 
+}
+
+.experienciasContainer > div a{ /* Selecionando o filho da div para qualquer a contigo nela.*/
+    color: var(--corBranco);  
+    border: 2px solid var(--roxoClaro);
+    border-radius: 30px;
+    padding: 10px 20px; /* O primeiro valor atua na vertical e o segundo na horizontal.*/
+    display: inline-block;
+    text-transform: uppercase; /* Transforma o texto todo em caixa alta.*/
+    margin-top: 20px;
+    background-color: transparent;
+}
