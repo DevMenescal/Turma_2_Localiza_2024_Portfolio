@@ -1,12 +1,13 @@
 #navegacao{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: var(--roxoEscuro);
     color: var(--corBranco);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    position: fixed; /* Travar a posição do meu elemento.*/
 }
 
 #navegacao ul{

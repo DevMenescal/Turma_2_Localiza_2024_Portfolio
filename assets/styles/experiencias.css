@@ -2,6 +2,7 @@
     background-color: var(--corFundo);
     padding-bottom: 150px;
     color: var(--corBranco);
+    padding-top: 100px;
 }
 
 #experiencias h1{
@@ -39,7 +40,7 @@
     border: 2px solid var(--roxoClaro);
     border-radius: 30px;
     padding: 10px 20px; /* O primeiro valor atua na vertical e o segundo na horizontal.*/
-    display: inline-block;
+    display: inline-block; /* Vai fazer com que o objeto fique em linha e não se sobreponha sobre os demais. */
     text-transform: uppercase; /* Transforma o texto todo em caixa alta.*/
     margin-top: 20px;
     background-color: transparent;
