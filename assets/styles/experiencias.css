@@ -18,13 +18,13 @@
 }
 
 .experienciasContainer > div{
-    width: 45%;
+    width: 48%;
     height: 200px;
     background-color: var(--roxoMedio);
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 2%;
     padding: 30px;
     border-top: 5px solid var(--roxoClaro);
     border-radius: 30px;
