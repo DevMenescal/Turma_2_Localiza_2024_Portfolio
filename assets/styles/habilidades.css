@@ -1,0 +1,17 @@
+#habilidades{
+    background-color: var(--corFundo);
+    color: var(--corBranco);
+    text-align: center;
+}
+
+#habilidades h1{
+    font-size: var(--fonteTitulo);
+}
+
+#habilidades ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
