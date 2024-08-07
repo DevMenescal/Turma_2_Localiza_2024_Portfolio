@@ -1,7 +1,5 @@
 #experiencias{
-    background-color: var(--corFundo);
     padding-bottom: 150px;
-    color: var(--corBranco);
     padding-top: 100px;
 }
 
@@ -29,6 +27,11 @@
     border-top: 5px solid var(--roxoClaro);
     border-radius: 30px;
     background: linear-gradient(130deg, var(--roxoEscuro) 0%, var(--roxoMedio) 50%, var(--roxoClaro) 100%);
+    transition: all .5s;
+}
+
+.experienciasContainer > div:hover{
+    transform: scale(1.2);
 }
 
 .experienciasContainer > div h2{ /* Selecionando o filha da div para qualquer h2 contigo nela.*/ 

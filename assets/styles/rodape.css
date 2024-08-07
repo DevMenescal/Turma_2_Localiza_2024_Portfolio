@@ -1,0 +1,5 @@
+#rodape{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: var(--fonteParagrafo);
+}
