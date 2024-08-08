@@ -20,3 +20,13 @@
     font-size: var(--fonteParagrafo);
     margin-right: 30px;
 }
+
+#navegacao a:hover{
+    color: var(--roxoClaro);
+    font-size: 30px;
+}
+
+#navegacao h1:hover{
+    color: var(--roxoClaro);
+    font-size: 50px;
+}
